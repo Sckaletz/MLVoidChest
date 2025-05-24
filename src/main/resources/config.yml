@@ -1,0 +1,53 @@
+# Permissions and Commands:
+
+# /voicchest <player> - Gives a Void Chest to the specified player.
+# /voicchest toggle - Toggles sale messages on or off for the player.
+
+# mlvoidchest.give - Permission to give Void Chests to players.
+# mlvoidchest.toggle - Permission to toggle sale messages.
+# mlvoidchest.use - Permission to use Void Chests.
+
+# mlvoidchest.place.<number> - Permission to place a specific number of Void Chests (1-10).
+# mlvoidchest.place.unlimited - Permission to place unlimited Void Chests.
+
+# ----------------------------------------------------------------------------------------
+
+# MLVoidChest Configuration
+
+# Enable debug logging (default: false)
+debug: false
+
+# Time in seconds between each collection of items (default: 15)
+collection-interval: 15
+
+# Messages
+messages:
+  prefix: "&8[&bMLVoidChest&8] &7"
+  chest-given: "&aYou have been given a Void Chest!"
+  chest-given-other: "&aYou have given a Void Chest to &e%player%&a!"
+  chest-placed: "&aYou have placed a Void Chest! It will collect and sell items in this chunk."
+  chest-broken: "&cYou have broken a Void Chest!"
+  chest-limit-reached: "&cYou have reached your limit of Void Chests!"
+  chunk-has-chest: "&cThis chunk already has a Void Chest! Only one Void Chest is allowed per chunk."
+  no-permission: "&cYou don't have permission to do that!"
+  items-sold: "&aYour Void Chest sold items for &e%amount%&a!"
+  messages-enabled: "&aSale messages have been &eenabled&a."
+  messages-disabled: "&aSale messages have been &cdisabled&a."
+
+# Chest settings
+chest:
+  name: "&b&lML Void Chest"
+  lore:
+    - "&7This chest will automatically sell"
+    - "&7items on the ground in its chunk"
+    - "&7and items inside the chest."
+    - "&7Collection interval: &e%interval% seconds"
+
+# Hologram settings
+hologram:
+  text: "&b&lML Void Chest"
+  enabled: true
+  countdown:
+    enabled: true
+    format: "&7Selling in: &e%time%"
+    now-text: "Now"

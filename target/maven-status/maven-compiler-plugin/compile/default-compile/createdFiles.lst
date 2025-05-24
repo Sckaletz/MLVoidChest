@@ -1,0 +1,10 @@
+eu\minelife\mLVoidChest\utils\HologramUtils.class
+eu\minelife\mLVoidChest\managers\PlayerPreferenceManager.class
+eu\minelife\mLVoidChest\listeners\ChestListener.class
+eu\minelife\mLVoidChest\listeners\PlayerListener.class
+eu\minelife\mLVoidChest\managers\ChestManager.class
+eu\minelife\mLVoidChest\commands\VoidChestCommand.class
+eu\minelife\mLVoidChest\MLVoidChest.class
+eu\minelife\mLVoidChest\tasks\ItemCollectionTask.class
+eu\minelife\mLVoidChest\utils\MessageUtils.class
+eu\minelife\mLVoidChest\tasks\HologramUpdateTask.class

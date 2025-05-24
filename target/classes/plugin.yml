@@ -1,0 +1,57 @@
+name: MLVoidChest
+version: '1.0'
+main: eu.minelife.mLVoidChest.MLVoidChest
+api-version: '1.21'
+depend: [Vault, ShopGUIPlus, WildStacker, DecentHolograms]
+description: A plugin that adds void chests which sell items on the ground
+
+commands:
+  voidchest:
+    description: Main command for MLVoidChest plugin
+    usage: |
+      /voidchest [player] - Give a void chest to a player
+      /voidchest toggle - Toggle sale messages on/off
+
+permissions:
+  mlvoidchest.give:
+    description: Allows giving void chests
+    default: op
+  mlvoidchest.toggle:
+    description: Allows toggling sale messages
+    default: true
+  mlvoidchest.use:
+    description: Allows using void chests
+    default: true
+  mlvoidchest.place.1:
+    description: Allows placing 1 void chest
+    default: true
+  mlvoidchest.place.2:
+    description: Allows placing 2 void chests
+    default: false
+  mlvoidchest.place.3:
+    description: Allows placing 3 void chests
+    default: false
+  mlvoidchest.place.4:
+    description: Allows placing 4 void chests
+    default: false
+  mlvoidchest.place.5:
+    description: Allows placing 5 void chests
+    default: false
+  mlvoidchest.place.6:
+    description: Allows placing 6 void chests
+    default: false
+  mlvoidchest.place.7:
+    description: Allows placing 7 void chests
+    default: false
+  mlvoidchest.place.8:
+    description: Allows placing 8 void chests
+    default: false
+  mlvoidchest.place.9:
+    description: Allows placing 9 void chests
+    default: false
+  mlvoidchest.place.10:
+    description: Allows placing 10 void chests
+    default: false
+  mlvoidchest.place.unlimited:
+    description: Allows placing unlimited void chests
+    default: false
