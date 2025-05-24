@@ -16,7 +16,7 @@ This plugin depends on the following plugins to function properly:
 
 - [Vault](https://www.spigotmc.org/resources/vault.34315/)
 - [ShopGUIPlus](https://www.spigotmc.org/resources/shopgui-plus.6515/) *(premium)*
-- [WildStacker](https://www.spigotmc.org/resources/wildstacker.32457/)
+- [WildStacker]([https://www.spigotmc.org/resources/wildstacker.32457/](https://bg-software.com/wildstacker/))
 - [DecentHolograms](https://www.spigotmc.org/resources/decent-holograms-1-8-1-20-4.96927/)
 
 ## 💡 How It Works
